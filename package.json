@@ -2,12 +2,12 @@
   "name": "angular-with-ci-cd",
   "version": "0.0.0",
   "scripts": {
-    "ng": "ng --port=3900",
+    "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "test": "ng test --watch false --browsers ChromeHeadless",
     "lint": "ng lint",
-    "e2e": "ng e2e --protractor-config='e2e/ci.protractor.conf.js' --port=3900"
+    "e2e": "ng e2e --protractor-config='e2e/protractor.ci.conf.js'"
   },
   "private": true,
   "dependencies": {
